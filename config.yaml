@@ -1,0 +1,23 @@
+# 输入 JSON 文件或包含 JSON 文件的目录
+input: "/home/zuquanzhi/Programs/Energy_Organ/sequence.1" 
+
+# 输出目录，将包含 labels/ 和 images/ 子目录以及 data.yaml
+output: "/home/zuquanzhi/Programs/Energy_Organ/output"
+
+# 是否将图像文件复制到输出目录的 images/ 子文件夹中
+copy_images: true
+
+# 类别定义
+# 每个键是 JSON 文件中 annotations 下的 "id"
+# 每个值包含:
+#   class_name: 分配给这个标注ID的类别名称 (将在 data.yaml 中使用)
+#   indices: 一个整数列表，指定使用哪些关键点索引来构建该类别的 OBB
+class_definitions:
+  inactivekeypoints:         # 对应 JSON 中的 annotation id
+    class_name: "inactive_object" # YOLO 类别名称
+    indices: [13, 14, 15, 16]     # 使用这4个索引的关键点来定义 OBB
+  
+  activekeypoints:           # 对应 JSON 中的 annotation id
+    class_name: "active_object"   # YOLO 类别名称
+    indices: [0, 2, 3, 5]       # 使用这4个索引的关键点来定义 OBB
+

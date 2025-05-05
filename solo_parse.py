@@ -72,7 +72,8 @@ def draw_keypoints_interactive(json_path):
                                         'x': x,
                                         'y': y,
                                         'state': state,
-                                        'loc3d': loc3d
+                                        'loc3d': loc3d,
+                                        'index': keypoint.get('index', -1) 
                                     })
                                 except (ValueError, TypeError):
                                     print(
@@ -115,7 +116,7 @@ def draw_keypoints_interactive(json_path):
     # 创建 matplotlib 图形和轴
     fig, ax = plt.subplots(figsize=(10, 8))  # 可以调整图形大小
     ax.imshow(image_rgb)
-    ax.set_title(f"点击关键点查看坐标 - {os.path.basename(json_path)}")
+    ax.set_title(f"Click to view - {os.path.basename(json_path)}")
     ax.axis('off')  # 关闭坐标轴显示
 
     # 提取坐标和颜色用于绘图
@@ -157,7 +158,8 @@ def draw_keypoints_interactive(json_path):
         # 准备要显示的文本
         coord_text = (f"2D: ({x2d:.1f}, {y2d:.1f})\n"
                       f"3D: ({loc3d[0]:.3f}, {loc3d[1]:.3f}, {loc3d[2]:.3f})\n"
-                      f"State: {state}")
+                      f"State: {state}\n"
+                      f"Index: {clicked_kp['index']}")
 
         # 在点击位置附近显示注释
         current_annotation = ax.annotate(coord_text, (x2d, y2d),
