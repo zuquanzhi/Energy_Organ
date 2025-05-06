@@ -9,44 +9,48 @@ from pathlib import Path
 
 
 def draw_obb_label(image, label_line, img_w, img_h):
-    """绘制YOLO OBB（定向边界框）标签"""
+    """绘制YOLO OBB（定向边界框）标签，格式为 class_id x1 y1 x2 y2 x3 y3 x4 y4"""
     parts = label_line.strip().split()
-    if len(parts) < 6:
-        print(f"OBB标签格式错误: {label_line}")
+    if len(parts) != 9: # 1 class_id + 8 coordinates
+        print(f"OBB标签格式错误 (期望9个部分): {label_line}")
         return
     
     try:
         # 解析OBB参数
         class_id = int(float(parts[0]))
-        xc = float(parts[1]) * img_w
-        yc = float(parts[2]) * img_h
-        w = float(parts[3]) * img_w
-        h = float(parts[4]) * img_h
-        angle = float(parts[5])  # 弧度
         
-        # 转换角度到OpenCV格式（度）
-        angle_deg = np.rad2deg(angle)
+        # 解析归一化的8个坐标值
+        coords_norm = [float(p) for p in parts[1:]]
         
-        # 构造旋转矩形
-        rect = ((xc, yc), (w, h), angle_deg)
+        # 将坐标反归一化并重塑为点数组
+        # (x1, y1, x2, y2, x3, y3, x4, y4)
+        box_points_abs = []
+        for i in range(0, 8, 2):
+            x_abs = coords_norm[i] * img_w
+            y_abs = coords_norm[i+1] * img_h
+            box_points_abs.append([x_abs, y_abs])
         
-        # 获取四个角点
-        box = cv2.boxPoints(rect)
-        # 使用np.int32代替np.int0
-        box = np.array(box, dtype=np.int32)
+        # 转换为Numpy数组，并确保数据类型为int32以便绘制
+        box_np = np.array(box_points_abs, dtype=np.int32)
         
-        # 绘制OBB
-        cv2.drawContours(image, [box], 0, (255, 0, 255), 2)
+        # 绘制OBB (多边形)
+        cv2.drawContours(image, [box_np], 0, (255, 0, 255), 2) # 洋红色
         
-        # 绘制中心点
-        cv2.circle(image, (int(xc), int(yc)), 5, (0, 0, 255), -1)
+        # 计算中心点用于放置标签文本 (可选，也可以使用第一个点或左上角点)
+        center_x = int(np.mean(box_np[:, 0]))
+        center_y = int(np.mean(box_np[:, 1]))
+        
+        # 绘制一个小的中心点（可选）
+        cv2.circle(image, (center_x, center_y), 3, (0, 0, 255), -1) # 红色小点
         
         # 添加类别标签
-        label_text = f"Class: {class_id}"
-        cv2.putText(image, label_text, (int(xc), int(yc) - 10), 
+        label_text = f"ID: {class_id}"
+        cv2.putText(image, label_text, (box_np[0][0], box_np[0][1] - 10), # 在第一个点上方显示
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 255), 2)
+    except ValueError as ve:
+        print(f"解析标签时值错误: {ve} in line: {label_line}")
     except Exception as e:
-        print(f"绘制OBB时出错: {e}")
+        print(f"绘制OBB时出错: {e} in line: {label_line}")
 
 
 def visualize_labels(img_path, label_path, output_path=None, show=True):

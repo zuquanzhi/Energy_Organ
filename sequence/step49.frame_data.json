@@ -1,0 +1,1897 @@
+{
+  "frame": 51,
+  "sequence": 1,
+  "step": 49,
+  "timestamp": 0.2449999,
+  "captures": [
+    {
+      "@type": "type.unity.com/unity.solo.RGBCamera",
+      "id": "camera",
+      "description": "",
+      "position": [
+        0.0490848832,
+        0.45,
+        7.49983931
+      ],
+      "rotation": [
+        0.0004655658,
+        0.991110861,
+        0.13299267,
+        -0.003469569
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "filename": "step49.camera.png",
+      "imageFormat": "Png",
+      "dimension": [
+        1280.0,
+        1024.0
+      ],
+      "projection": "Perspective",
+      "matrix": [
+        4.537025,
+        0.0,
+        0.0,
+        0.0,
+        5.67128134,
+        0.0,
+        0.0,
+        0.0,
+        -1.020202
+      ],
+      "annotations": [
+        {
+          "@type": "type.unity.com/unity.solo.KeypointAnnotation",
+          "id": "activekeypoints",
+          "sensorId": "camera",
+          "description": "Produces keypoint annotations for all visible labeled objects that have a humanoid animation avatar component.",
+          "templateId": "6f97f5dc-dba0-4268-8137-96d95aa05caf",
+          "values": [
+            {
+              "instanceId": 2,
+              "labelId": 0,
+              "pose": "unset",
+              "keypoints": [
+                {
+                  "index": 0,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 1,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 2,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 3,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 4,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 5,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 6,
+                  "location": [
+                    773.4616,
+                    391.826782
+                  ],
+                  "cameraCartesianLocation": [
+                    0.34563002,
+                    0.311216831,
+                    7.51979971
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 7,
+                  "location": [
+                    789.2333,
+                    407.710876
+                  ],
+                  "cameraCartesianLocation": [
+                    0.38590607,
+                    0.269683838,
+                    7.508741
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 8,
+                  "location": [
+                    697.3551,
+                    491.2655
+                  ],
+                  "cameraCartesianLocation": [
+                    0.147113055,
+                    0.05318308,
+                    7.44783831
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 9,
+                  "location": [
+                    681.5057,
+                    475.006653
+                  ],
+                  "cameraCartesianLocation": [
+                    0.106619,
+                    0.09502792,
+                    7.45896626
+                  ],
+                  "state": 2
+                }
+              ]
+            },
+            {
+              "instanceId": 4,
+              "labelId": 0,
+              "pose": "unset",
+              "keypoints": [
+                {
+                  "index": 0,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 1,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 2,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 3,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 4,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 5,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 6,
+                  "location": [
+                    444.970825,
+                    562.8573
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.496564478,
+                    -0.129487991,
+                    7.39311075
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 7,
+                  "location": [
+                    442.505249,
+                    540.6497
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.5038867,
+                    -0.07309663,
+                    7.40846872
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 8,
+                  "location": [
+                    570.1581,
+                    525.1399
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.1785107,
+                    -0.0335847139,
+                    7.421629
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 9,
+                  "location": [
+                    572.8785,
+                    547.421
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.171199828,
+                    -0.09034467,
+                    7.406154
+                  ],
+                  "state": 2
+                }
+              ]
+            },
+            {
+              "instanceId": 6,
+              "labelId": 0,
+              "pose": "unset",
+              "keypoints": [
+                {
+                  "index": 0,
+                  "location": [
+                    859.3873,
+                    564.7587
+                  ],
+                  "cameraCartesianLocation": [
+                    0.559090853,
+                    -0.134451389,
+                    7.399833
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 1,
+                  "location": [
+                    790.345459,
+                    523.1721
+                  ],
+                  "cameraCartesianLocation": [
+                    0.384575129,
+                    -0.0285779238,
+                    7.427489
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 2,
+                  "location": [
+                    727.5626,
+                    495.084656
+                  ],
+                  "cameraCartesianLocation": [
+                    0.224538654,
+                    0.0433763266,
+                    7.44600534
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 3,
+                  "location": [
+                    790.810242,
+                    690.089233
+                  ],
+                  "cameraCartesianLocation": [
+                    0.379795581,
+                    -0.448494315,
+                    7.312575
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 4,
+                  "location": [
+                    717.785034,
+                    655.8613
+                  ],
+                  "cameraCartesianLocation": [
+                    0.196482718,
+                    -0.363389134,
+                    7.334649
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 5,
+                  "location": [
+                    658.3338,
+                    619.060547
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0464618243,
+                    -0.271314144,
+                    7.35857868
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 6,
+                  "location": [
+                    819.6087,
+                    611.0029
+                  ],
+                  "cameraCartesianLocation": [
+                    0.4557085,
+                    -0.251193285,
+                    7.367342
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 7,
+                  "location": [
+                    808.720032,
+                    630.817444
+                  ],
+                  "cameraCartesianLocation": [
+                    0.4272799,
+                    -0.300902843,
+                    7.35355
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 8,
+                  "location": [
+                    694.829834,
+                    570.25885
+                  ],
+                  "cameraCartesianLocation": [
+                    0.1396034,
+                    -0.148334026,
+                    7.393159
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 9,
+                  "location": [
+                    705.9644,
+                    550.5457
+                  ],
+                  "cameraCartesianLocation": [
+                    0.168268278,
+                    -0.09832597,
+                    7.40702
+                  ],
+                  "state": 2
+                }
+              ]
+            },
+            {
+              "instanceId": 8,
+              "labelId": 0,
+              "pose": "unset",
+              "keypoints": [
+                {
+                  "index": 0,
+                  "location": [
+                    485.09137,
+                    376.614136
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.401468277,
+                    0.35087204,
+                    7.52535
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 1,
+                  "location": [
+                    513.917664,
+                    447.368469
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.3245952,
+                    0.166391611,
+                    7.4754777
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 2,
+                  "location": [
+                    546.747742,
+                    505.1609
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.238788754,
+                    0.01751268,
+                    7.43542433
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 3,
+                  "location": [
+                    615.127258,
+                    319.046875
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.0648372248,
+                    0.50298214,
+                    7.569236
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 4,
+                  "location": [
+                    652.2706,
+                    384.540771
+                  ],
+                  "cameraCartesianLocation": [
+                    0.03179072,
+                    0.330219984,
+                    7.522867
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 5,
+                  "location": [
+                    677.753662,
+                    445.67865
+                  ],
+                  "cameraCartesianLocation": [
+                    0.09724973,
+                    0.1708374,
+                    7.479636
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 6,
+                  "location": [
+                    544.9844,
+                    363.087524
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.246607527,
+                    0.386493444,
+                    7.53637362
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 7,
+                  "location": [
+                    565.597,
+                    353.970764
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.193286881,
+                    0.4105345,
+                    7.54333
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 8,
+                  "location": [
+                    619.3125,
+                    463.7118
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.0531925075,
+                    0.12416029,
+                    7.466082
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 9,
+                  "location": [
+                    598.3918,
+                    473.06427
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.106884092,
+                    0.100018978,
+                    7.459081
+                  ],
+                  "state": 2
+                }
+              ]
+            },
+            {
+              "instanceId": 10,
+              "labelId": 0,
+              "pose": "unset",
+              "keypoints": [
+                {
+                  "index": 0,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 1,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 2,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 3,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 4,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 5,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 6,
+                  "location": [
+                    613.577759,
+                    720.195557
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.06633394,
+                    -0.5226823,
+                    7.28983
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 7,
+                  "location": [
+                    590.55365,
+                    715.8186
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.124179974,
+                    -0.5118717,
+                    7.29236555
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 8,
+                  "location": [
+                    615.133667,
+                    591.1391
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.06318072,
+                    -0.20107758,
+                    7.37774754
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 9,
+                  "location": [
+                    638.0429,
+                    595.471436
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.00497083738,
+                    -0.212010741,
+                    7.375168
+                  ],
+                  "state": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "type.unity.com/unity.solo.KeypointAnnotation",
+          "id": "inactivekeypoints",
+          "sensorId": "camera",
+          "description": "Produces keypoint annotations for all visible labeled objects that have a humanoid animation avatar component.",
+          "templateId": "5fe19fcc-de24-4e65-b4c2-165e9e9d8313",
+          "values": [
+            {
+              "instanceId": 2,
+              "labelId": 0,
+              "pose": "unset",
+              "keypoints": [
+                {
+                  "index": 0,
+                  "location": [
+                    791.972168,
+                    312.767578
+                  ],
+                  "cameraCartesianLocation": [
+                    0.396443546,
+                    0.5197294,
+                    7.57475138
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 1,
+                  "location": [
+                    797.9922,
+                    307.085022
+                  ],
+                  "cameraCartesianLocation": [
+                    0.4124248,
+                    0.5349126,
+                    7.579846
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 2,
+                  "location": [
+                    873.697632,
+                    309.847778
+                  ],
+                  "cameraCartesianLocation": [
+                    0.609926939,
+                    0.5275966,
+                    7.57834768
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 3,
+                  "location": [
+                    879.9496,
+                    315.776855
+                  ],
+                  "cameraCartesianLocation": [
+                    0.625906169,
+                    0.5118462,
+                    7.574262
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 4,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 5,
+                  "location": [
+                    879.029053,
+                    387.961121
+                  ],
+                  "cameraCartesianLocation": [
+                    0.619232059,
+                    0.321336746,
+                    7.52235556
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 6,
+                  "location": [
+                    872.966,
+                    393.5558
+                  ],
+                  "cameraCartesianLocation": [
+                    0.603051066,
+                    0.306602359,
+                    7.516449
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 7,
+                  "location": [
+                    796.494141,
+                    390.902954
+                  ],
+                  "cameraCartesianLocation": [
+                    0.405183673,
+                    0.313536048,
+                    7.51804829
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 8,
+                  "location": [
+                    790.5448,
+                    384.793945
+                  ],
+                  "cameraCartesianLocation": [
+                    0.390027851,
+                    0.3295622,
+                    7.52282667
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 9,
+                  "location": [
+                    773.4616,
+                    391.826782
+                  ],
+                  "cameraCartesianLocation": [
+                    0.34563002,
+                    0.311216831,
+                    7.51979971
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 10,
+                  "location": [
+                    789.2333,
+                    407.710876
+                  ],
+                  "cameraCartesianLocation": [
+                    0.38590607,
+                    0.269683838,
+                    7.508741
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 11,
+                  "location": [
+                    697.3551,
+                    491.2655
+                  ],
+                  "cameraCartesianLocation": [
+                    0.147113055,
+                    0.05318308,
+                    7.44783831
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 12,
+                  "location": [
+                    681.5057,
+                    475.006653
+                  ],
+                  "cameraCartesianLocation": [
+                    0.106619,
+                    0.09502792,
+                    7.45896626
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 13,
+                  "location": [
+                    836.0676,
+                    272.8393
+                  ],
+                  "cameraCartesianLocation": [
+                    0.5135561,
+                    0.6264285,
+                    7.6055913
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 14,
+                  "location": [
+                    917.3141,
+                    353.051941
+                  ],
+                  "cameraCartesianLocation": [
+                    0.7209419,
+                    0.413221836,
+                    7.54882765
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 15,
+                  "location": [
+                    836.1682,
+                    427.15332
+                  ],
+                  "cameraCartesianLocation": [
+                    0.506293058,
+                    0.218981624,
+                    7.494184
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 16,
+                  "location": [
+                    755.2101,
+                    346.069946
+                  ],
+                  "cameraCartesianLocation": [
+                    0.299592078,
+                    0.431483626,
+                    7.55076027
+                  ],
+                  "state": 1
+                }
+              ]
+            },
+            {
+              "instanceId": 4,
+              "labelId": 0,
+              "pose": "unset",
+              "keypoints": [
+                {
+                  "index": 0,
+                  "location": [
+                    377.587128,
+                    617.867432
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.664381146,
+                    -0.268036723,
+                    7.35162449
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 1,
+                  "location": [
+                    368.753,
+                    619.2869
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.686718464,
+                    -0.27161932,
+                    7.351312
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 2,
+                  "location": [
+                    308.739471,
+                    572.30304
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.8421092,
+                    -0.1532985,
+                    7.381589
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 3,
+                  "location": [
+                    307.686462,
+                    563.709839
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.845474958,
+                    -0.131560564,
+                    7.387609
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 4,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 5,
+                  "location": [
+                    357.0364,
+                    504.780884
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.724020362,
+                    0.01847148,
+                    7.429702
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 6,
+                  "location": [
+                    365.760254,
+                    503.399536
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.7016386,
+                    0.0220041275,
+                    7.42906761
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 7,
+                  "location": [
+                    425.822174,
+                    549.796265
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.5457536,
+                    -0.0963099,
+                    7.39900351
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 8,
+                  "location": [
+                    426.6187,
+                    558.3746
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.543325245,
+                    -0.118081927,
+                    7.39357853
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 9,
+                  "location": [
+                    444.970825,
+                    562.8573
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.496564478,
+                    -0.129487991,
+                    7.39311075
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 10,
+                  "location": [
+                    442.505249,
+                    540.6497
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.5038867,
+                    -0.07309663,
+                    7.40846872
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 11,
+                  "location": [
+                    570.1581,
+                    525.1399
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.1785107,
+                    -0.0335847139,
+                    7.421629
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 12,
+                  "location": [
+                    572.8785,
+                    547.421
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.171199828,
+                    -0.09034467,
+                    7.406154
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 13,
+                  "location": [
+                    314.120056,
+                    625.926758
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.824412,
+                    -0.2882123,
+                    7.345778
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 14,
+                  "location": [
+                    302.6844,
+                    511.3645
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.862511635,
+                    0.00162494183,
+                    7.42471361
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 15,
+                  "location": [
+                    417.332,
+                    497.614075
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.5702599,
+                    0.03684306,
+                    7.43646
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 16,
+                  "location": [
+                    429.937134,
+                    611.4646
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.532286167,
+                    -0.252036929,
+                    7.3577857
+                  ],
+                  "state": 1
+                }
+              ]
+            },
+            {
+              "instanceId": 6,
+              "labelId": 0,
+              "pose": "unset",
+              "keypoints": [
+                {
+                  "index": 0,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 1,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 2,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 3,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 4,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 5,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 6,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 7,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 8,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 9,
+                  "location": [
+                    819.6087,
+                    611.0029
+                  ],
+                  "cameraCartesianLocation": [
+                    0.4557085,
+                    -0.251193285,
+                    7.367342
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 10,
+                  "location": [
+                    808.720032,
+                    630.817444
+                  ],
+                  "cameraCartesianLocation": [
+                    0.4272799,
+                    -0.300902843,
+                    7.35355
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 11,
+                  "location": [
+                    694.829834,
+                    570.25885
+                  ],
+                  "cameraCartesianLocation": [
+                    0.1396034,
+                    -0.148334026,
+                    7.393159
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 12,
+                  "location": [
+                    705.9644,
+                    550.5457
+                  ],
+                  "cameraCartesianLocation": [
+                    0.168268278,
+                    -0.09832597,
+                    7.40702
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 13,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 14,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 15,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 16,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                }
+              ]
+            },
+            {
+              "instanceId": 8,
+              "labelId": 0,
+              "pose": "unset",
+              "keypoints": [
+                {
+                  "index": 0,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 1,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 2,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 3,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 4,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 5,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 6,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 7,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 8,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 9,
+                  "location": [
+                    544.9844,
+                    363.087524
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.246607527,
+                    0.386493444,
+                    7.53637362
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 10,
+                  "location": [
+                    565.597,
+                    353.970764
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.193286881,
+                    0.4105345,
+                    7.54333
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 11,
+                  "location": [
+                    619.3125,
+                    463.7118
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.0531925075,
+                    0.12416029,
+                    7.466082
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 12,
+                  "location": [
+                    598.3918,
+                    473.06427
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.106884092,
+                    0.100018978,
+                    7.459081
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 13,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 14,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 15,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 16,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                }
+              ]
+            },
+            {
+              "instanceId": 10,
+              "labelId": 0,
+              "pose": "unset",
+              "keypoints": [
+                {
+                  "index": 0,
+                  "location": [
+                    647.7561,
+                    800.7128
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0193236731,
+                    -0.7193036,
+                    7.234313
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 1,
+                  "location": [
+                    646.33905,
+                    809.6531
+                  ],
+                  "cameraCartesianLocation": [
+                    0.01578198,
+                    -0.741050363,
+                    7.22917461
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 2,
+                  "location": [
+                    580.1489,
+                    853.5431
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.148369133,
+                    -0.846675754,
+                    7.198182
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 3,
+                  "location": [
+                    571.084839,
+                    852.025757
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.170861036,
+                    -0.843024135,
+                    7.19912148
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 4,
+                  "location": [
+                    0.0,
+                    0.0
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "state": 0
+                },
+                {
+                  "index": 5,
+                  "location": [
+                    527.118652,
+                    786.661865
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.281521916,
+                    -0.6849966,
+                    7.241714
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 6,
+                  "location": [
+                    528.7249,
+                    777.712463
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.2776792,
+                    -0.663067,
+                    7.24597359
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 7,
+                  "location": [
+                    594.7382,
+                    734.255859
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.113435835,
+                    -0.5570209,
+                    7.277287
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 8,
+                  "location": [
+                    603.546,
+                    736.119934
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.0913541,
+                    -0.561646938,
+                    7.27669144
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 9,
+                  "location": [
+                    613.577759,
+                    720.195557
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.06633394,
+                    -0.5226823,
+                    7.28983
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 10,
+                  "location": [
+                    590.55365,
+                    715.8186
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.124179974,
+                    -0.5118717,
+                    7.29236555
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 11,
+                  "location": [
+                    615.133667,
+                    591.1391
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.06318072,
+                    -0.20107758,
+                    7.37774754
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 12,
+                  "location": [
+                    638.0429,
+                    595.471436
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.00497083738,
+                    -0.212010741,
+                    7.375168
+                  ],
+                  "state": 2
+                },
+                {
+                  "index": 13,
+                  "location": [
+                    635.8995,
+                    864.225
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.0101578906,
+                    -0.87253356,
+                    7.193052
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 14,
+                  "location": [
+                    516.044,
+                    841.375732
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.307615578,
+                    -0.8173957,
+                    7.20596266
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 15,
+                  "location": [
+                    539.3011,
+                    726.6388
+                  ],
+                  "cameraCartesianLocation": [
+                    -0.2525584,
+                    -0.5383258,
+                    7.282631
+                  ],
+                  "state": 1
+                },
+                {
+                  "index": 16,
+                  "location": [
+                    657.5414,
+                    748.9691
+                  ],
+                  "cameraCartesianLocation": [
+                    0.0439169332,
+                    -0.5932814,
+                    7.269764
+                  ],
+                  "state": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
