@@ -218,8 +218,8 @@ def calculate_obb_from_points(points):
         print(f"计算 minAreaRect 时出错: {e}")
         return None
 
-def convert_to_yolo_obb(data):
-    """将提取的数据转换为YOLO OBB格式"""
+def convert_to_yolo_aabb(data):
+    """将提取的数据转换为YOLO AABB格式 (class_id x_center y_center width height)"""
     if not data or "objects" not in data or not data["objects"]:
         return []
 
@@ -230,7 +230,7 @@ def convert_to_yolo_obb(data):
         print("错误: 图像尺寸无效，无法进行归一化。")
         return []
 
-    yolo_obbs = []
+    yolo_aabbs = []
     for obj in data["objects"]:
         obb_params = calculate_obb_from_points(obj["points"])
         
@@ -254,12 +254,14 @@ def convert_to_yolo_obb(data):
                  continue
 
             class_id = obj["class_id"]
-            yolo_obb_line = f"{class_id} {xc_norm:.6f} {yc_norm:.6f} {w_norm:.6f} {h_norm:.6f} {angle_rad:.6f}"
-            yolo_obbs.append(yolo_obb_line)
+            
+            # 创建YOLO AABB格式字符串（类别ID + 中心坐标 + 宽高）
+            yolo_aabb_line = f"{class_id} {xc_norm:.6f} {yc_norm:.6f} {w_norm:.6f} {h_norm:.6f}"
+            yolo_aabbs.append(yolo_aabb_line)
         else:
-            print(f"警告: 无法为实例 {obj.get('instance_id', 'N/A')} (标注ID: {obj.get('annotation_id')}) 计算 OBB。")
+            print(f"警告: 无法为实例 {obj.get('instance_id', 'N/A')} (标注ID: {obj.get('annotation_id')}) 计算 AABB。")
 
-    return yolo_obbs
+    return yolo_aabbs
 
 def process_files(config):
     """处理配置文件中指定的JSON文件或目录"""
@@ -316,7 +318,7 @@ def process_files(config):
             continue
 
         # 转换为YOLO OBB格式
-        yolo_obb_lines = convert_to_yolo_obb(extracted_data)
+        yolo_obb_lines = convert_to_yolo_aabb(extracted_data)
 
         if not yolo_obb_lines:
             print(f"文件 {json_path} 未生成有效的 YOLO OBB 标签，跳过。")

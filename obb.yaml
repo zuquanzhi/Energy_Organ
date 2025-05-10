@@ -7,19 +7,12 @@ output: "/home/test/Programs/Energy_Organ/output"
 # 是否将图像文件复制到输出目录的 images/ 子文件夹中
 copy_images: true
 
-# 类别定义
-# 每个键是 JSON 文件中 annotations 下的 "id"
-# 每个值包含:
-#   class_name: 分配给这个标注ID的类别名称 (将在 data.yaml 中使用)
-#   indices: 一个整数列表，指定使用哪些关键点索引来构建该类别的 OBB
 class_definitions:
   inactivekeypoints:         # 对应 JSON 中的 annotation id
     class_name: "inactive_object" # YOLO 类别名称
     indices: [13, 14, 15, 16] 
-    # indices: [0, 2, 5, 7, 9, 10, 11, 12]
   
   activekeypoints:           # 对应 JSON 中的 annotation id
     class_name: "active_object"   # YOLO 类别名称
-    indices: [3, 11, 12,0] 
-    # indices: [0, 1, 3, 4, 9, 10, 11, 12]
+    indices: [0, 2, 3, 5] 
 
